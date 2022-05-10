@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: #4527a0;
+}
+
+.site-name {
+  font-size: 2rem;
+  font-family: "Lora", serif;
+}
