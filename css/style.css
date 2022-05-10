@@ -1,36 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
 .navbar {
-  background-color: #07001B;
+  background-color: #07001b;
 }
 
 .site-name {
   font-size: 2rem;
-  font-family: "Lora", serif;
+  font-family: "Great Vibes", cursive;
 }
 
-/* Video Settings */
+/************** Video Settings Starts **************/
 .video-container {
-  /* position: absolute; */
   width: 100%;
-  height: 80%;
 }
 .video-container video {
   /* Make video to at least 100% wide and tall */
   min-width: 100%;
+  height: 100%;
 
   /* Setting width & height to auto prevents the browser from stretching or squishing the video */
   width: auto;
 }
 
+/************** Video Settings Ends **************/
+
 .myh1 {
   position: absolute;
-  margin-top: -55%;
+  margin-top: -57%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.company-tagline-container {
+  width: 20rem;
+  padding: 0.7rem;
+  border-radius: 0.6rem;
+}
+
+.company-name {
+  font-family: "Great Vibes", cursive;
 }
